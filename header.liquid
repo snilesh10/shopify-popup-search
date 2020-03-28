@@ -1,0 +1,11 @@
+<form action="/search" method="get" role="search" class="header_search_frm">
+        <div class="input-group--underline">
+          <input class="input-group__field" type="search" name="q" value="" placeholder="Search" aria-label="Search">     
+        </div>
+         <div class="input-group__btn">
+            <button type="submit" class="btn btn--clear btn--square btn--hover-scale sliding-search-header">
+                {%- assign icon = 'icon-search' %}
+              {% include icon %}
+            </button>
+          </div>
+      </form>
